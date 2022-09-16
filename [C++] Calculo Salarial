@@ -1,7 +1,9 @@
-int iHoras, iNumero;
-float fSalario;
-cin >> iNumero >> iHoras >> fSalario;
-fSalario = iHoras * fSalario;
-cout << "NUMBER = " << iNumero << endl;
-printf("SALARY = U$ %.2f", fSalario);
-cout << endl;
+int main(){
+  int iHoras, iNumero;
+  float fSalario;
+  cin >> iNumero >> iHoras >> fSalario;
+  fSalario = iHoras * fSalario;
+  cout << "NUMBER = " << iNumero << endl;
+  printf("SALARY = U$ %.2f", fSalario);
+  cout << endl;
+}
