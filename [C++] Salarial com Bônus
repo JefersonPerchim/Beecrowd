@@ -1,0 +1,10 @@
+int main(){
+  double fSalarioMes, fTotalVendas, fComissao;
+  cin >> sNome >> fSalarioMes >> fTotalVendas;
+  fComissao = (15 * fTotalVendas) / 100;
+  fSalarioMes = fSalarioMes + fComissao;
+  printf("TOTAL = R$ %.2f", fSalarioMes);
+  cout << endl;
+
+  return 0;
+  }
