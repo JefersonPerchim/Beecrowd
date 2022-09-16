@@ -1,5 +1,8 @@
-int A, B, C, D, diferenca;
-cin >> A >> B >> C >> D;
-diferenca = (A * B - C * D);
-printf("DIFERENCA = %d", diferenca);
-cout << endl;
+int main(){
+  int A, B, C, D, diferenca;
+  cin >> A >> B >> C >> D;
+  diferenca = (A * B - C * D);
+  printf("DIFERENCA = %d", diferenca);
+  cout << endl;
+return 0;
+}
