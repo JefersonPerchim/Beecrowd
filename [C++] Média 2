@@ -1,0 +1,6 @@
+double A, B, media;
+cin >> A;
+cin >> B;
+media = ((A*3.5) + (B*7.5))/11;
+printf("MEDIA = %.5f", media);
+cout << endl;
